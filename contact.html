@@ -1,0 +1,118 @@
+<DOCTYPE html>
+  <html lang="en">
+<head>
+  <meta charset="utf-8">
+<title> Contact Form </title>
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/contact.js">
+</script>
+
+</head>
+<body bgcolor="#2d3436">
+
+
+    <!--Logo -->
+    <div class="logo">
+    <a href="webVB.html"><img class="logo" src="img/logo.png"></a>
+    </div>
+    <!-- End of Logo -->
+    <ul class="nav" >
+    <li><a href="#"></a></li>
+
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="analogues.html">Sites Analogues</a></li>
+    <li><a href="catalogue.html">Catalogue</a></li>
+    <li><a href="contact.html">Order / Contact Us</a></li>
+  </ul>
+
+<div class="wrapper">
+  <div class="headerOrder">
+    <h1> Custom Order </h1>
+    <p></p>
+  </div>
+  <div class="order">
+    <form method="post" action="form-handler.php" onsubmit="return checkForm(this);">
+      <input type="text" placeholder="Name*" required="required" name="inputfield" />
+      <input type="text" placeholder="E-Mail*" required="required" name="inputfield" />
+      <input type="text" placeholder="Theme (The subject of the logotype) / Text" required="required" name="inputfield"/>
+      <fieldset id="resolution">
+        <legend>Pick Resolution</legend>
+        <table>
+          <tr>
+            <th align="center"><img src="./img/pixels.jpg" /></th>
+            <th align="center"><img src="./img/mm.jpg" /></th>
+            <th><img src="img/none.png" alt="none"/></th>
+          </tr>
+          <tr>
+            <td>614×874</td>
+            <td>52×74</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+          </tr>
+          <tr>
+            <td>874×1240</td>
+            <td>74×105</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+          </tr>
+          <tr>
+            <td>1240×1748</td>
+            <td>105×148</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+          </tr>
+          <tr>
+            <td>1748×2480</td>
+            <td>148×210</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+          </tr>
+          <tr>
+            <td>2480×3508</td>
+            <td>210×297</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+          </tr>
+          <tr>
+            <td>11114×14008</td>
+            <td>840×1186</td>
+            <td><input type="radio" name="check" id="full" value="full"/></td>
+            </tr>
+          </table>
+      </fieldset>
+
+      <input type="text" id="msg" placeholder="Message*" required="required" />
+
+    <div class="buttonS">
+      <input type="submit" value="submit">
+        </form>
+      <!--
+    <button type="buttom">Submit</button>
+  -->
+</div>
+  </div>
+
+  <div class="header">
+    <h1> Contac Us </h1>
+    <p></p>
+  </div>
+  <div class="form">
+    <form method="post" action="form-handler.php" onsubmit="return checkForm(this);">
+      <input type="text" placeholder="Name*" required="required" name="inputfield" />
+      <input type="text" placeholder="E-Mail*" required="required" name="inputfield" />
+      <input type="text" id="msg" placeholder="Message*" required="required" />
+      <div class="buttonS">
+        <input type="submit" value="submit">
+          </form>
+        <!--
+      <button type="buttom">Submit</button>
+    -->
+  </div>
+    </div>
+<!--
+<div id="container">
+  <div id="footer">
+    Contact Us Personaly at:
+    <a href="mailto:ghayward@gmail.com?subject=CustomerService" target="_blank">Gerry Hayward, </a>
+    <a href="mailto:gbale@gmail.com?subject=CustomerService" target="_blank">Gareth Bale.</a>
+ </div>
+</div>
+-->
+</body>
+</html>

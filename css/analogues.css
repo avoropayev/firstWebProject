@@ -1,0 +1,47 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  color: #d63031;
+  text-shadow: 2px 2px #1e272e;
+}
+
+nav{
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+article{
+  margin-left: 100px;
+  border-left: 1px solid red;
+  padding: 1em;
+  overflow: hidden;
+}
+/*
+.links a{
+  color: #d63031;
+  text-decoration: underline;
+}
+.links a:hover {
+  color: #fff200;
+}
+*/
+.imglink img{
+  width: 300px;
+  box-shadow: 7px 7px 7px 0px #1e272e;
+
+}
+.links p{
+  color: #d63031;
+
+}
+.links{
+  border: 1px solid white;
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 2px;
+  padding: 10px;
+  margin-left: 150px;
+
+}
